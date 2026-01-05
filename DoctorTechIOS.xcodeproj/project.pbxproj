@@ -10,9 +10,33 @@
 		6DB6DD7A2F0B93FB00244035 /* DoctorTechIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorTechIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6DB6DD9A2F0B998D00244035 /* Exceptions for "DoctorTechIOS" folder in "DoctorTechIOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				README.md,
+			);
+			target = 6DB6DD792F0B93FB00244035 /* DoctorTechIOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		6DB6DD9B2F0B998D00244035 /* Exceptions for "DoctorTechIOS" folder in "Compile Sources" phase from "DoctorTechIOS" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 6DB6DD762F0B93FB00244035 /* Sources */;
+			membershipExceptions = (
+				README.md,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6DB6DD7C2F0B93FB00244035 /* DoctorTechIOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6DB6DD9A2F0B998D00244035 /* Exceptions for "DoctorTechIOS" folder in "DoctorTechIOS" target */,
+				6DB6DD9B2F0B998D00244035 /* Exceptions for "DoctorTechIOS" folder in "Compile Sources" phase from "DoctorTechIOS" target */,
+			);
 			path = DoctorTechIOS;
 			sourceTree = "<group>";
 		};
